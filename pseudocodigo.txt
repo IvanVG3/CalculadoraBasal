@@ -1,0 +1,18 @@
+- Se recibe el peso del niño en kilogramos
+- si peso <= 30 entonces(metodo Holliday-Segar):
+        -si peso <= 10:
+            volumenDiario = peso * 100
+        -sino si peso <= 20:
+            volumenDiario = 1000 + (peso-10)*50
+        -sino:
+            volumenDiario = 1500 + (peso-20)*20
+        -mantenimentoNeto = volumenDiario/24
+        -mostrar mantenimentoNeto
+        -mantenimentoAprox = mantenimentoNeto * 1,5
+        -mostrar mantenimentoAprox
+    -sino(metodo Superficie Corporal):
+        -superficieCorporal = ((peso *4)+7)/(peso + 90)
+        -se decide si multiplicar por 1500 o 2000
+        -volumenDiario = superficieCorporal * eleccion
+        -mostrar volumenDiario
+
