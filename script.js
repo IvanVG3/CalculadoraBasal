@@ -35,7 +35,6 @@ BOTON.addEventListener("click", () => {
         let Aux1, Aux2;
         Aux1 = ((peso * 4) + 7);
         Aux2 = (peso + 90);
-        console.log(Aux1, Aux2);
         return Aux1 / Aux2;
     }
     function hollidaySegar(peso) {
